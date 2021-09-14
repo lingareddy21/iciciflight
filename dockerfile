@@ -1,2 +1,2 @@
-FROM tomcat8
-COPY target/*.jar /usr/local/tomcat8/webapps/
+FROM tomcat:8
+COPY target/*.war /usr/local/tomcat/webapps/
